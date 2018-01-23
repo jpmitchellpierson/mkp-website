@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" type="text/css" href="flexslider.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Michael Pierson Company</title>
+</head>
+<body>
+
+  <!-- wrap entire grid in centered container div -->
+  <div class="container">
+      <!-- header split in two sides for logo and nav links -->
+      <div class="row">
+        <div class="column header">
+            <img src="images/home/homepage-logo.gif" alt="" id="logo">
+        </div> 
+      </div>
+
+      <div class="row navigation">
+        <div class="column"><hr></div>
+        <nav class="row column navbar">
+          <div class="column">
+            <a href="#" class="nav-link">Home</a>
+          </div>
+          <div class="column">
+            <a href="#" class="nav-link">About Us</a>
+          </div>
+          <div class="column">
+            <a href="#" class="nav-link">Projects</a>
+          </div>
+          <div class="column">
+            <a href="#" class="nav-link">Contact Us</a>
+          </div>
+          <div class="column">
+            <a href="#" class="nav-link">News</a>  
+          </div>
+        </nav>
+        <div class="column"><hr></div>
+      </div>
+  
+      <!-- Intro Slide -->
+      <div class="row column intro-slide">
+        <div class="column _20"></div>
+        <div class="column flexslider _60">
+          <ul class="slides">
+            <li>
+              <img class="" src="" />
+            </li>
+            <li>
+              <img  src="" />
+            </li>
+            <li>
+              <img src="" />
+            </li>
+            <li>
+              <img src="" />
+            </li>
+            <li>
+              <img src="" />
+            </li>
+            <li>
+              <img src="" />
+            </li>
+          </ul>
+        </div> 
+        <div class="column _20"></div>
+      </div>
+  
+      <!-- Slide Two -->
+      <div class="row slide-two">
+        <div class="column _05"></div>
+        <div class="column slide-two-frame _95">
+          <div class="column">
+            <p id="services">Development Services</p>
+          </div>
+          <div class="row column">
+            <div class="column">
+              <img src="images/aveline/aveline-1.jpg" class="services-pic">
+            </div>
+            <div class="column services-txt">
+              <p class="">Michael Pierson's unusual expertise in developing is one-of-kind. Michael combines his keen sense of markets with his artistic vision and team management skills to craft luxury properties. His creations have broken records for square foot sales prices in every market he has entered.</p>
+            </div>
+          </div>
+          <div class="row column">
+            <div class="column services-txt">
+              <p>Michael's services include providing detailed investment and income analysis, envisioning plans for each project with premiere design team, careful selection of home styles, furnishings, and both interior and exterior design.</p>
+            </div>
+            <div class="column">
+              <img src="images/aspen/eagle-pines-1/aspen-ep1-lr3.jpg" class="services-pic">
+            </div>
+          </div>
+          <div class="row column last">
+            <div class="column">
+              <img src="images/hawaii/beach-house/bh-br3.jpg" class="services-pic">
+            </div>
+            <div class="column services-txt">
+              <p class="">With over 40 years of experience building some of the most beautiful homes in the world, Michael is passionately involved in every step of the process from conception to delivery of product. </p>
+            </div>
+          </div>
+        </div>
+        <div class="column _10"></div>
+      </div>
+  
+      <!-- Slide Three -->
+      <div class="row slide-three">
+        <div class="column" id="slide-three"></div>
+      </div>
+  
+      <!-- Footer -->
+      <div class="row footer">
+        <div class="column" id="footer-1"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Slider Plugin -->
+    <script src="js/jquery.flexslider.js"></script>
+
+    <!-- Start flexslider on load -->
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(() => {
+        $('.flexslider').flexslider();
+      });
+    </script>
+
+    <script src="app.js"></script>
+  
+</body>
+</html>
