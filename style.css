@@ -5,7 +5,7 @@ body{
 }
 
 .container {
-  max-width: 2000px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -61,23 +61,36 @@ body{
     color: #adc6a3;
   }
 
+  .option {
+    font-size: 12px;
+    height: 30%;
+    width: 160%;
+    color: #fff;
+    background-color: black;
+    opacity: .9;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 3px;
+  }
+
+  button {
+    outline: none;
+  }
+
   .intro-slide {
-    height: 45em;
+    height: 30%;;
     background-color: black;
     opacity: .9;
   }
 
-  .slider-frame {
-    height: 70%;
-    width: 60%;
-    margin: 0 auto;
-    background-color: #707D69;
+  .flexslider { 
+    border: 8px solid #707D69;
   }
 
-  .flexslider {
-    height: 80%;
-    background-color: #707D69;
-    border: none;
+  .flexslider img {
+    height: 100%;
+    width: 100%;
   }
 
   ._20 {
