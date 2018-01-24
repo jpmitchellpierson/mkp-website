@@ -1,9 +1,10 @@
-// Flexslider jQuery
 $(document).ready(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
+  // Start Flexslider
+  $(document).ready(() => {
+    $('.flexslider').flexslider();
   });
 
+  // Create About Us Options
   let aboutMichael = document.createElement('button');
   aboutMichael.className = 'option';
   aboutMichael.id = 'aboutMichael';
@@ -14,11 +15,13 @@ $(document).ready(function() {
   michaelServices.id = 'michaelServices'
   michaelServices.innerText = 'Our Services';
 
+  // Hide About Us Options
   $('.about').append(aboutMichael);
   $('.about').append(michaelServices);
   $('#aboutMichael').hide();
   $('#michaelServices').hide();
 
+  // Toggle About Us Options When Clicked
   $('#about').on('click',() => {
     $('#aboutMichael').toggle();
     $('#michaelServices').toggle();

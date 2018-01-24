@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="flexslider.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -14,7 +15,6 @@
 
   <!-- wrap entire grid in centered container div -->
   <div class="container">
-      <!-- header split in two sides for logo and nav links -->
       <div class="row">
         <div class="column header">
             <img src="images/home/homepage-logo.gif" alt="" id="logo">
@@ -46,34 +46,40 @@
       <!-- Intro Slide -->
       <div class="row column intro-slide">
         <div class="column _20"></div>
+        <!-- Flexslider -->
         <div class="column flexslider _60">
           <ul class="slides">
             <li>
-              <img src="images/hawaii/sandcastles/castles-front.jpg" />
+              <img src="images/telluride/telluride-ranch-front.jpg" />
+              <p class="flex-caption">Telluride Log Cabin</p>
+            </li>
+            <li>
+              <img src="images/home/sceneEnvironments02.jpg" />
+            </li>
+            <li>
+              <img src="images/hawaii/sandcastles/castles-front-night.jpg" />
+              <p class="flex-caption">Sandcastles Baby Beach</p>
             </li>
             <li>
               <img src="images/home/sceneInspired02.jpg" />
             </li>
             <li>
               <img src="images/aveline/aveline-2.jpg" />
+              <p class="flex-caption">Aveline in La Jolla Village</p>
             </li>
             <li>
               <img src="images/home/sceneMaintaining02.jpg" />
             </li>
             <li>
-              <img src="images/telluride/telluride-ranch-front.jpg" />
-            </li>
-            <li>
-              <img src="images/home/sceneEnvironments02.jpg" />
-            </li>
-            <li>
-              <img src="images/hawaii/maha-olu/mo-back.jpg" />
+              <img src="images/hawaii/maha-olu/mo-dr.jpg" />
+              <p class="flex-caption">Maha Olu Living Room Ocean View</p>
             </li>
             <li>
               <img src="images/home/sceneVisionEnhanced02.jpg" />
             </li>
             <li>
               <img src="images/aspen/eagle-pines-1/aspen-ep1-back.jpg" />
+              <p class="flex-caption">Eagle Pines Aspen</p>
             </li>
             <li>
               <img src="images/home/sceneWarm02.jpg" />
@@ -95,7 +101,7 @@
               <img src="images/aveline/aveline-1.jpg" class="services-pic">
             </div>
             <div class="column services-txt">
-              <p class="">Michael Pierson's unusual expertise in developing is one-of-kind. Michael combines his keen sense of markets with his artistic vision and team management skills to craft luxury properties. His creations have broken records for square foot sales prices in every market he has entered.</p>
+              <p>Michael Pierson's unusual expertise in developing is one-of-kind. Michael combines his keen sense of markets with his artistic vision and team management skills to craft luxury properties. His creations have broken records for square foot sales prices in every market he has entered.</p>
             </div>
           </div>
           <div class="row column">
@@ -111,7 +117,7 @@
               <img src="images/hawaii/beach-house/bh-br3.jpg" class="services-pic">
             </div>
             <div class="column services-txt">
-              <p class="">With over 40 years of experience building some of the most beautiful homes in the world, Michael is passionately involved in every step of the process from conception to delivery of product. </p>
+              <p>With over 40 years of experience building some of the most beautiful homes in the world, Michael is passionately involved in every step of the process from conception to delivery of product. </p>
             </div>
           </div>
         </div>
@@ -120,7 +126,11 @@
   
       <!-- Slide Three -->
       <div class="row slide-three">
-        <div class="column" id="slide-three"></div>
+        <div class="_05"></div>
+        <div class="row column _90" id="slide-three">
+          <img src="images/aspen/eagle-pines-2/aspen-ep2-pan.jpg" alt="" class="column">
+        </div>
+        <div class="_05"></div>
       </div>
   
       <!-- Footer -->
@@ -129,18 +139,12 @@
       </div>
     </div>
 
+    <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
+
     <!-- jQuery Slider Plugin -->
     <script src="js/jquery.flexslider.js"></script>
 
-    <!-- Start flexslider on load -->
-    <script type="text/javascript" charset="utf-8">
-      $(document).ready(() => {
-        $('.flexslider').flexslider();
-      });
-    </script>
-
     <script src="app.js"></script>
-  
 </body>
 </html>

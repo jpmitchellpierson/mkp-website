@@ -18,6 +18,119 @@ body{
   flex-basis: 100%;
 }
 
+.header {
+  height: 12em;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+#logo {
+  margin: 4.5em;
+}
+
+.navigation {
+  height: 5em;
+  color: white;
+  background-color: black;
+  opacity: .9;
+}
+
+.navbar {
+  flex-direction: row;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #adc6a3;
+}
+
+.option {
+  font-size: 12px;
+  height: 30%;
+  width: 160%;
+  color: #fff;
+  background-color: black;
+  opacity: .9;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 4px;
+  margin: 3px;
+}
+
+button {
+  outline: none;
+}
+
+.intro-slide {
+  background-color: #707D69;
+  opacity: .9; 
+}
+
+.flexslider { 
+  border: 8px solid #707D69;
+}
+
+.flexslider img {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-caption {
+  width: 20%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+  position: absolute;
+}
+
+.slide-two {
+  font-family: helvetica;
+  background-color: #707D69;
+  text-align: center;
+}
+
+.slide-two-frame {
+  border-radius: 4px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: black;
+}
+
+#services {
+  font-size: 1.7em;
+  font-weight: lighter;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.services-txt p {
+  line-height: 150%;
+  font-size: 1.2em;
+  font-weight: lighter;
+  width: 90%;
+  margin-top: .2%;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 5px;
+  background-color: #fff;
+  opacity: .6;
+}
+
 @media screen and (min-width: 800px) {
   .row {
     flex-direction: row;
@@ -25,40 +138,6 @@ body{
 
   .column {
     flex: 1;
-  }
-
-  .header {
-    height: 12em;
-    background-color: black;
-    opacity: .9;
-    text-align: center;
-  }
-
-  #logo {
-    margin: 4.5em;
-  }
-
-  .navigation {
-    height: 5em;
-    color: white;
-    background-color: black;
-    opacity: .9;
-  }
-
-  .navbar {
-    text-align: center;
-  }
-
-  .nav-link {
-    color: white;
-    font-family: helvetica;
-    font-size: 12px;
-    font-weight: lighter;
-    text-decoration: none;
-  }
-
-  .nav-link:hover {
-    color: #adc6a3;
   }
 
   .option {
@@ -74,23 +153,14 @@ body{
     margin: 3px;
   }
 
-  button {
-    outline: none;
-  }
-
   .intro-slide {
     height: 30%;;
     background-color: black;
-    opacity: .9;
+    opacity: .9; 
   }
 
   .flexslider { 
-    border: 8px solid #707D69;
-  }
-
-  .flexslider img {
-    height: 100%;
-    width: 100%;
+    margin-bottom: 8em;
   }
 
   ._20 {
@@ -119,7 +189,7 @@ body{
   }
 
   ._95 {
-    flex: 9.5;
+    flex: 9;
   }
 
   #services {
@@ -130,6 +200,7 @@ body{
   }
 
   .services-pic {
+    display: inline-block;
     height: 80%;
     width: 80%;
     border-radius: 7px;
@@ -144,12 +215,17 @@ body{
     margin-bottom: 20%;
     margin-left: 15%;
     margin-right: 15%;
+    background-color: #fbefdf;
   }
 
   .last {
     margin-bottom: 5%;
   }
 
+  #slide-three {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 1300px) {
