@@ -1,7 +1,8 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
 
-body {
+html, body {
   width: 100%;
+  margin: 0 auto;
 }
 
 .container {
@@ -54,7 +55,7 @@ body {
 }
 
 .option {
-  width: 100px;
+  width: 100%;
   font-size: 7px;
   color: #fff;
   background-color: black;
