@@ -1,6 +1,6 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
 
-body{
+body {
   width: 100%;
 }
 
@@ -107,9 +107,11 @@ button {
   border-radius: 4px;
   margin-top: 3em;
   background-color: black;
+  opacity: .8;
 }
 
-#services {
+.slide-headers-txt {
+  font-family: helvetica;
   font-size: 1.7em;
   font-weight: lighter;
   margin-top: 2%;
@@ -147,6 +149,42 @@ button {
   background-color: #fff;
   opacity: .5;
   position: absolute;
+}
+
+.slide-three {
+  border-bottom: 1px solid rgb(223, 221, 221);
+}
+
+.slide-four {
+  text-align: center;
+  background-color: #707D69;
+}
+
+#slide-four-header {
+  color: black;
+  margin-top: 5%;
+}
+
+#about-pic {
+  width: 20%;
+  border-radius: 4px;
+}
+
+.about-txt-frame {
+  background-color: white;
+  opacity: .4;
+}
+
+.about-txt-header {
+  font-family: helvetica;
+  margin-top: 5%
+}
+
+.about-txt {
+  font-family: helvetica;
+  font-weight: lighter;
+  line-height: 150%;
+  padding: 2%;
 }
 
 @media screen and (min-width: 800px) {
@@ -210,7 +248,7 @@ button {
     flex: 9;
   }
 
-  #services {
+  .slide-headers-txt {
     font-size: 2em;
     font-weight: lighter;
     margin-top: 4%;
@@ -249,6 +287,21 @@ button {
 
   .services-txt-mb {
     display: none;
+  }
+
+  .slide-four {
+    padding-bottom: 4%;
+  }
+
+  .about-txt-frame {
+    border-radius: 4px;
+    background-color: white;
+    opacity: .4;
+  }
+
+  #about-pic {
+    width: 60%;
+    border-radius: 4px;
   }
 }
 
