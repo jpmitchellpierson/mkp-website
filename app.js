@@ -7,24 +7,36 @@ $(document).ready(function() {
   // Create About Us Options
   let aboutMichael = document.createElement('button');
   aboutMichael.className = 'option';
-  aboutMichael.id = 'aboutMichael';
+  aboutMichael.id = 'aboutMichaelBtn';
   aboutMichael.innerText = 'Michael Pierson'
 
   let michaelServices = document.createElement('button');
   michaelServices.className = 'option';
-  michaelServices.id = 'michaelServices'
+  michaelServices.id = 'michaelServicesBtn'
   michaelServices.innerText = 'Our Services';
 
   // Hide About Us Options
   $('.about').append(aboutMichael);
   $('.about').append(michaelServices);
-  $('#aboutMichael').hide();
-  $('#michaelServices').hide();
+  $('.option').hide();
 
   // Toggle About Us Options When Clicked
   $('#about').on('click',() => {
-    $('#aboutMichael').toggle();
-    $('#michaelServices').toggle();
+    $('.option').toggle();
+  });
+
+  $('#aboutMichaelBtn').click(() => {
+    $('html, body').animate({
+      scrollTop: $(".slide-four").offset().top
+    }, 1000);
+    $('.option').toggle();
+  });
+
+  $('#michaelServicesBtn').click(() => {
+    $('html, body').animate({
+      scrollTop: $(".slide-two").offset().top
+    }, 1000);
+    $('.option').toggle();
   });
 });
 

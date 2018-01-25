@@ -54,20 +54,19 @@ body {
 }
 
 .option {
-  font-size: 12px;
-  height: 30%;
-  width: 160%;
+  width: 100px;
+  font-size: 7px;
   color: #fff;
   background-color: black;
   opacity: .9;
   border: 1px solid white;
   border-radius: 2px;
-  padding: 4px;
-  margin: 3px;
+  padding: 1px;
 }
 
-button {
-  outline: none;
+.option:hover {
+  color: black;
+  background-color: white;
 }
 
 .intro-slide {
@@ -147,7 +146,7 @@ button {
   padding: 5px;
   border-radius: 10px;
   background-color: #fff;
-  opacity: .5;
+  opacity: .6;
   position: absolute;
 }
 
@@ -301,6 +300,15 @@ button {
     border-radius: 4px;
     background-color: white;
     opacity: .4;
+  }
+
+  .about-txt-header {
+    font-family: helvetica;
+    margin-top: 10%
+  }
+
+  .about-txt {
+    line-height: 180%;
   }
 
   .about-pic {
