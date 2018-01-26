@@ -1,7 +1,9 @@
 $(document).ready(function() {
   // Start Flexslider
   $(document).ready(() => {
-    $('.flexslider').flexslider();
+    $('.flexslider').flexslider({
+      slideshowSpeed: 6000
+    });
   });
 
   // Create About Us Options
