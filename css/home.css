@@ -163,6 +163,7 @@ html, body {
   color: #fff;
   opacity: .7;
   margin-top: 6%;
+  margin-bottom: 5%;
 }
 
 #about-pic {
@@ -171,9 +172,8 @@ html, body {
 }
 
 .about-txt-frame {
-  background-color: white;
-  opacity: .4;
-  margin-top: 1em;
+  opacity: .7;
+  margin-top: .5em;
 }
 
 .about-txt-header {
@@ -231,7 +231,7 @@ html, body {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .row {
     flex-direction: row;
   }
@@ -336,6 +336,7 @@ html, body {
   }
 
   .slide-four {
+    background-color: #707D69;
     padding-bottom: 4%;
   }
 

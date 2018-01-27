@@ -1,11 +1,4 @@
 $(document).ready(function() {
-  // Start Flexslider
-  $(document).ready(() => {
-    $('.flexslider').flexslider({
-      slideshowSpeed: 6000
-    });
-  });
-
   // Create About Us Options
   let aboutMichael = document.createElement('button');
   aboutMichael.className = 'option';
@@ -41,4 +34,3 @@ $(document).ready(function() {
     $('.option').toggle();
   });
 });
-
