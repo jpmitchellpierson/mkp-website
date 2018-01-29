@@ -29,7 +29,7 @@ html, body {
 }
 
 .navigation {
-  height: 5em;
+  height: 4em;
   color: white;
   background-color: black;
   opacity: .9;
@@ -49,7 +49,7 @@ html, body {
 }
 
 .nav-link:hover {
-  color: #adc6a3;
+  color: #707D69;
 }
 
 .option {
@@ -70,12 +70,12 @@ html, body {
 
 .projects-list-frame {
   text-align: center;
-  background-color: #95B8BD;
+  background-color: #707D69;
 }
 
 .projects-pic {
   width: 90%;
-  border: .6em solid rgb(49, 49, 49);
+  border: .1em solid rgb(49, 49, 49);
   border-radius: 4px;
 }
 
@@ -86,7 +86,7 @@ html, body {
 .fig-caption {
   font-family: helvetica;
   margin-top: 2%;
-  opacity: .8;
+  opacity: .6;
 }
 
 .footer {
@@ -114,7 +114,7 @@ html, body {
   #logo {
     height: 25%;
     width: 80%;
-    padding-top: 2em;;
+    padding-top: 2em;
     margin: 2.5em;
   }
 }
