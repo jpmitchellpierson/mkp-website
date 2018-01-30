@@ -75,7 +75,7 @@ html, body {
 
 .projects-pic {
   width: 90%;
-  border: .1em solid rgb(49, 49, 49);
+  border: .5em solid rgb(49, 49, 49);
   border-radius: 4px;
 }
 
