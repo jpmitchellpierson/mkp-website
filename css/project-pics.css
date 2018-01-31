@@ -48,24 +48,38 @@ html, body {
   zoom: 50%;
 }
 
+.bunker-hill-img {
+  text-align: center;
+  max-width: 70%;
+  zoom: 15%;
+}
+
 @media screen and (min-width: 300px) { 
   #logo {
     height: 25%;
     width: 80%;
     margin: 2.5em;
   }
+
+  .bunker-hill-img {
+    zoom: 20%;
+  }
 }
 
 @media screen and (min-width: 560px) { 
   #logo {
-    height: auto !important;
-    width: auto !important;
+    height: 8%;
+    width: 90%;
     padding-top: 0;
     margin: 5em;
   }
 
   .woods-rose-img {
     zoom: 70%;
+  }
+
+  .bunker-hill-img {
+    zoom: 25%;
   }
 }
 
@@ -87,6 +101,14 @@ html, body {
     flex: 9;
   }
 
+  ._20 {
+    flex: 2;
+  }
+
+  ._60 {
+    flex: 6;
+  }
+
   #logo {
     margin-top: 10%;
     margin-left: 10%;
@@ -95,10 +117,31 @@ html, body {
   .woods-rose-img {
     zoom: 80%;
   }
+
+  .bunker-hill-img {
+    zoom: 40%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
   .woods-rose-img {
     zoom: 100%;
+  }
+
+  .bunker-hill-img {
+    zoom: 50%;
+  }
+
+  #logo {
+    height: auto !important;
+    width: auto !important;
+    padding-top: 0;
+    margin: 5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bunker-hill-img {
+    zoom: 60%;
   }
 }
