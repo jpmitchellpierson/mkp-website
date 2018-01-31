@@ -1,0 +1,166 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+.header {
+  height: 12em;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+#logo {
+  margin: 4.5em;
+}
+
+.navigation {
+  height: 4em;
+  color: white;
+  background-color: black;
+  opacity: .9;
+}
+
+.navbar {
+  flex-direction: row;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #707D69;
+}
+
+.option {
+  width: 100%;
+  font-size: 7px;
+  color: #fff;
+  background-color: black;
+  opacity: .9;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 1px;
+}
+
+.option:hover {
+  color: black;
+  background-color: white;
+}
+
+.news-list-frame {
+  text-align: center;
+  background-color: #707D69;
+}
+
+.news-pic {
+  width: 45%;
+  border: .3em solid rgb(49, 49, 49);
+  border-radius: 4px;
+}
+
+.news-pic:hover {
+  opacity: .6;
+}
+
+.fig-caption {
+  font-family: helvetica;
+  margin-top: 2%;
+  opacity: .6;
+}
+
+.footer {
+  height: 8em;
+  width: 100%;
+  background-color: black;
+  opacity: .9;
+  flex-direction: row;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-top: 3em;
+}
+
+.footer-link a {
+  font-family: helvetica;
+  text-decoration: none;
+  color: white;
+  opacity: .7;
+}
+
+@media screen and (min-width: 300px) { 
+  #logo {
+    height: 25%;
+    width: 80%;
+    padding-top: 2em;
+    margin: 2.5em;
+  }
+}
+
+@media screen and (min-width: 560px) { 
+  #logo {
+    height: auto !important;
+    width: auto !important;
+    padding-top: 0;
+    margin: 4.5em;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .news-pic {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+
+  .option {
+    font-size: 12px;
+    height: 30%;
+    width: 160%;
+    color: #fff;
+    background-color: black;
+    opacity: .9;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 3px;
+  }
+
+  .news-list-frame {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  figure {
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+  }
+}
