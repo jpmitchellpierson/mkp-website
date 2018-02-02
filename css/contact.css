@@ -1,0 +1,162 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1A1A1A;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+.header {
+  height: 12em;
+  opacity: .9;
+  text-align: center;
+}
+
+#logo {
+  margin: 4.5em;
+}
+
+.navigation {
+  height: 5em;
+  color: white;
+  opacity: .9;
+}
+
+.navbar {
+  flex-direction: row;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #adc6a3;
+}
+
+.option {
+  width: 100%;
+  font-size: 7px;
+  color: #fff;
+  background-color: black;
+  opacity: .9;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 1px;
+}
+
+.option:hover {
+  color: black;
+  background-color: white;
+}
+
+.name {
+  text-align: center;
+  color: #fff;
+  font-family: arial;
+  margin-top: 5%;
+}
+
+.email {
+  text-align: center;
+  color: #fff;
+  font-family: arial;
+  margin-top: 5%;
+}
+
+.message {
+  text-align: center;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#submit-btn {
+  height: 3.5em;
+  width: 9em;
+  color: #fff;
+  background-color: #707D69;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: arial;
+  font-weight: lighter;
+  text-align: center;
+  color: #CBCBCB;
+}
+
+#linked-in {
+  text-decoration: none;
+  color: #707D69;
+}
+
+p {
+  line-height: 150%;
+}
+
+@media screen and (min-width: 300px) { 
+  #logo {
+    height: 25%;
+    width: 80%;
+    padding-top: 2em;
+    margin: 2.5em;
+  }
+}
+
+@media screen and (min-width: 560px) { 
+  #logo {
+    height: auto !important;
+    width: auto !important;
+    padding-top: 0;
+    margin: 4.5em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .row {
+    flex-direction: row;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .option {
+    font-size: 12px;
+    height: 30%;
+    width: 160%;
+    color: #fff;
+    background-color: black;
+    opacity: .9;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 3px;
+  }
+}
