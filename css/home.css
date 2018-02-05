@@ -27,7 +27,7 @@ html, body {
 }
 
 #logo {
-  margin: 4.5em;
+  margin: 3.5em;
 }
 
 .navigation {
@@ -215,7 +215,6 @@ html, body {
 
 @media screen and (min-width: 300px) { 
   #logo {
-    height: 25%;
     width: 80%;
     padding-top: 2em;
     margin: 2.5em;
