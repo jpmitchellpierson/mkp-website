@@ -154,6 +154,11 @@ html, body {
   border-bottom: 1px solid rgb(223, 221, 221);
 }
 
+#ep2-main {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .slide-four {
   text-align: center;
   background-color: #707D69;
@@ -227,6 +232,10 @@ html, body {
     width: auto !important;
     padding-top: 0;
     margin: 4.5em;
+  }
+
+  #ep2-main {
+    width: 80%;
   }
 }
 
@@ -328,6 +337,10 @@ html, body {
   #slide-three {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  #ep2-main {
+    width: 100%;
   }
 
   .services-txt-mb {

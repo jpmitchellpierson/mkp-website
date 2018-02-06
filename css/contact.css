@@ -1,11 +1,9 @@
 html, body {
   width: 100%;
   margin: 0 auto;
-  background-color: #171717;
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -22,6 +20,7 @@ html, body {
   height: 12em;
   opacity: .9;
   text-align: center;
+  background-color: #020202;
 }
 
 #logo {
@@ -29,6 +28,7 @@ html, body {
 }
 
 .navigation {
+  background-color: #020202;
   height: 5em;
   color: white;
   opacity: .9;
@@ -65,6 +65,11 @@ html, body {
 .option:hover {
   color: black;
   background-color: white;
+}
+
+.contact-page {
+  background-color: #020202;
+  opacity: .9;
 }
 
 .name {
